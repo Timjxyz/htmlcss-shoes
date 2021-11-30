@@ -4,34 +4,44 @@
     padding: 0;
     font-family: 'Rubik Mono One', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav{
 
-    height: 70px; 
+    height: 100px; 
     width: 100%;
     text-align: right;
     background-color: transparent;
     position: fixed;
-    top: 0;
-    left: 0;
     z-index: 999;
 
 }
 
 nav ol li {
-    display: inline-block;
-    padding: 0 20px;
+    display: inline-block; 
     line-height: 50px;
     width: 50px;
-    border-radius: 50%;
-    border: 1px solid black;
+
 }
 
 nav ol li a {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px;
+    background-color: white;
     
-    
+}
+
+ol li a:hover{
+    box-shadow: 0px 4px #696969;
+
 }
 
 
