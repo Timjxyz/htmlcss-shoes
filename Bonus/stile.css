@@ -74,6 +74,10 @@ section {
     
 }
 
+img{
+    width: 100%;
+}
+
 #secondo{
     background-color: green;
 }
